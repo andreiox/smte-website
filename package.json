@@ -1,0 +1,24 @@
+{
+  "name": "smte-website",
+  "private": true,
+  "description": "Website for SMte Tecnologia",
+  "version": "1.0.0",
+  "license": "",
+  "scripts": {
+    "build": "rm -rf public/ && gatsby build",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.37",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-typescript": "^2.0.11",
+    "graphql": "^14.1.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.8"
+  }
+}
