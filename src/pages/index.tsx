@@ -1,6 +1,8 @@
 import * as React from 'react'
 
+import About from '../components/about'
 import Header from '../components/header'
+import LineSeparator from '../components/line_separator'
 import Title from '../components/title'
 
 interface IndexPageProps { }
@@ -11,6 +13,8 @@ class IndexPage extends React.Component<IndexPageProps, {}> {
             <div>
                 <Header />
                 <Title />
+                <About />
+                <LineSeparator />
             </div>
         )
     }
