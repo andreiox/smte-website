@@ -1,4 +1,3 @@
-import { withPrefix } from 'gatsby'
 import * as React from 'react'
 
 import * as styles from './Index.module.scss'
@@ -9,16 +8,16 @@ class Header extends React.Component<HeaderProps, {}> {
     public render() {
         return (
             <div className={styles.header_container}>
-                <div className={styles.header_contents}>
+                <div className={styles.header_contents} id="inicio">
                     <div />
-                    <img className={styles.logo} src={withPrefix('/img/logo.png')}></img>
+                    <img className={styles.logo} src={'./img/logo.png'}></img>
                     <div />
                     <div className={styles.links}>
-                        <a href='#'>INICIO</a>
-                        <a href='#'>SOBRE</a>
-                        <a href='#'>SOLUÇÕES</a>
-                        <a href='#'>CASES</a>
-                        <a href='#'>CONTATO</a>
+                        <a href='#inicio'>INICIO</a>
+                        <a href='#sobre'>SOBRE</a>
+                        <a href='#solucoes'>SOLUÇÕES</a>
+                        <a href='#cases'>CASES</a>
+                        <a href='#contato'>CONTATO</a>
                     </div>
                     <div />
                 </div>
