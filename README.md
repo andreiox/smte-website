@@ -22,3 +22,7 @@ Concorrentes
 05. Telecom
 06. Seestel
 07. Inforede
+
+
+
+Header -> hero-img -> sobre -> soluções -> clientes -> footer
