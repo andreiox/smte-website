@@ -1,7 +1,6 @@
 # smte-website
 Website for SMte Tecnologia
 
-
 Tecnologias:
 
 - ReactJS (JS Framework)
@@ -10,8 +9,6 @@ Tecnologias:
 - ?? (Headless CMS)
 - Github (Git)
 - Zeit (Hosting/CDN)
-
-
 
 Concorrentes
 
@@ -24,5 +21,18 @@ Concorrentes
 07. Inforede
 
 
-
 Header -> hero-img -> sobre -> soluções -> clientes -> footer
+
+
+Clientes:
+- precon
+- redecom
+- federacao
+- dental tirante
+- grande minas
+- fpt powertrain tech
+- promed
+- safra
+- premium saude
+- unimed
+- decisao contabilidade
