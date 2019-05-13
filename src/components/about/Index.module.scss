@@ -1,7 +1,7 @@
 .about_container {
     max-width: 880px;
     margin: 0 auto;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
 
     h1 {
         text-align: center;
@@ -20,6 +20,10 @@
             background-color: #e27b2d;
         }
     }
+}
+
+.about_text {
+    padding-top: 15px;
 
     p {
         font-family: 'Roboto Condensed', sans-serif;
