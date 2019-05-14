@@ -8,7 +8,8 @@ class About extends React.Component<AboutProps, {}> {
 	public render() {
 		return (
 			<div className={styles.about_container}>
-				<h1 id="sobre">
+				<a id="sobre"></a>
+				<h1>
 					sobre nós
 					<span />
 				</h1>

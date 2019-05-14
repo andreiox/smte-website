@@ -13,10 +13,9 @@ class Header extends React.Component<HeaderProps, {}> {
                     <img className={styles.logo} src={'./img/logo.png'}></img>
                     <div />
                     <div className={styles.links}>
-                        <a href='#inicio'>INICIO</a>
                         <a href='#sobre'>SOBRE</a>
                         <a href='#solucoes'>SOLUÇÕES</a>
-                        <a href='#cases'>CASES</a>
+                        <a href='#clientes'>CLIENTES</a>
                         <a href='#contato'>CONTATO</a>
                     </div>
                     <div />

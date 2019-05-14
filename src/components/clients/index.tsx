@@ -8,6 +8,7 @@ class Clients extends React.Component<ClientsProps, {}> {
 	public render() {
 		return (
 			<div className={styles.clients_container}>
+				<a id="clientes"></a>
 				<h1 id="clientes">
 					clientes
 					<span />
