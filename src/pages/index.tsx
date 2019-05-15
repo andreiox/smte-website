@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import About from '../components/about'
 import Clients from '../components/clients'
+import Footer from '../components/footer'
 import Header from '../components/header'
 import LineSeparator from '../components/line_separator'
 import Solutions from '../components/solutions'
@@ -16,11 +17,9 @@ class IndexPage extends React.Component<IndexPageProps, {}> {
                 <Header />
                 <Title />
                 <About />
-                <LineSeparator />
                 <Solutions />
-                <LineSeparator />
                 <Clients />
-                <LineSeparator />
+                <Footer />
             </div>
         )
     }
