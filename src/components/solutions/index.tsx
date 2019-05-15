@@ -25,7 +25,7 @@ class Solutions extends React.Component<SolutionsProps, {}> {
 					/>
 					<SolutionCard
 						title={'Construções'}
-						description={'Obras em Clínicas Médicas e Laboratoriais, Obras Industriais, Edificações Comerciais, Serviços de infra-estrutura interna e externa, Construção e Reformas, Data Centers e Call Centers'}
+						description={'Obras em Clínicas Médicas e Laboratoriais, Obras Industriais, Edificações Comerciais, Serviços de infra-estrutura interna e externa, Construção e Reformas, Data Centers e Call Centers.'}
 					/>
 				</div>
 				<div className={styles.solutions}>
