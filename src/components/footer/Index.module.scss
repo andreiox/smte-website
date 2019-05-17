@@ -5,13 +5,13 @@
     background-color: #333;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
+}
 
-    a {
-        display: block;
-        position: relative;
-        top: -115px;
-        visibility: hidden;
-    }
+.hidden_anchor {
+    display: block;
+    position: relative;
+    top: -115px;
+    visibility: hidden;
 }
 
 .footer {
@@ -34,4 +34,15 @@
     width: auto;
     position: relative;
     bottom: 5px;
+}
+
+.credit {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    float: right;
 }

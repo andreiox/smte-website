@@ -9,7 +9,7 @@ class Footer extends React.Component<FooterProps, {}> {
 	public render() {
 		return (
 			<div className={styles.footer_container}>
-				<a id="contato"></a>
+				<a className={styles.hidden_anchor} id="contato"></a>
 				<div className={styles.footer}>
 					<div className={styles.logo_container}>
 						<img className={styles.logo} src={'./img/logo.png'}></img>
@@ -28,6 +28,10 @@ class Footer extends React.Component<FooterProps, {}> {
 							title="Atendimento"
 							description="Segunda à sexta de 08:00 as 18:00"
 						/>
+					</div>
+					<div className={styles.credit}>
+						<span>SMte Tecnologia © 2019</span>
+						<a href={"https://andremacedo.dev"} className={styles.link}>made by Andre Macedo</a>
 					</div>
 				</div>
 			</div>
