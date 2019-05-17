@@ -11,6 +11,9 @@ import Title from '../components/title'
 interface IndexPageProps { }
 
 class IndexPage extends React.Component<IndexPageProps, {}> {
+    componentDidMount() {
+        document.title = "SMte Tecnologia, Construções & Montagens"
+    }
     public render() {
         return (
             <div>
